@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tareas</string>
+    <string name="boton_login">Login</string>
+    <string name="crear_cuenta">Crea una cuenta ...</string>
+    <string name="mis_tareas">Mis tareas</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="mas">Mas</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="hecho">Hecho</string>
+</resources>

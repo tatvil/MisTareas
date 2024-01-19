@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261671900397",
+    "project_id": "mis-tareas-fcd4c",
+    "storage_bucket": "mis-tareas-fcd4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261671900397:android:59fe7d4599f95194f2e8e4",
+        "android_client_info": {
+          "package_name": "es.tatianavilla.tareas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaurZwOR8YscxXYyO0TWZls7FUz3Gqlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

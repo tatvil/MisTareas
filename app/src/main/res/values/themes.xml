@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Tareas" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorControlHighlight">@color/contraste</item>
+        <item name="fontFamily">@font/gothambook</item>
+    </style>
+
+    <!-- Application theme extending the base theme -->
+    <style name="Theme.Tareas" parent="Base.Theme.Tareas" />
+
+    <!-- Legacy AppCompat theme for activities that still use AppCompat -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Other attributes here if needed -->
+    </style>
+
+</resources>
