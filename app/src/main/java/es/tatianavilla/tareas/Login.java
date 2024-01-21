@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
         getSupportActionBar().hide();
 
         // Initialize Firebase Auth
-        mAuth = FirebaseAuth.getInstance();
+  /*      mAuth = FirebaseAuth.getInstance();
 
         emailText = findViewById(R.id.email);
         passText = findViewById(R.id.password);
@@ -75,8 +75,9 @@ public class Login extends AppCompatActivity {
                             }
                         });
 
+
             }
-        });
+        }); */
 
     }
 }
