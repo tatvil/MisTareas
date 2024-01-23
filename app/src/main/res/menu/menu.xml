@@ -8,13 +8,13 @@
         android:id="@+id/mas"
         android:title="@string/mas"
         android:icon="@mipmap/mas"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         />
 
     <item
         android:id="@+id/logout"
         android:title="@string/cerrar"
         android:icon="@mipmap/cerrar"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         />
 </menu>

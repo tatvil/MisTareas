@@ -3,6 +3,7 @@ package es.tatianavilla.tareas;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,8 +15,10 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.core.View;
 
 public class Login extends AppCompatActivity {
+
     Button botonLogin;
     TextView botonRegistro;
     private FirebaseAuth mAuth;
@@ -38,7 +41,7 @@ public class Login extends AppCompatActivity {
         botonLogin = findViewById(R.id.botonlogin);
         botonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(Login.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -60,6 +63,11 @@ public class Login extends AppCompatActivity {
 
     }
 
+    private <Intent> void startActivity(Intent intent) {
+        // Arrancamos a actvity de las tareas
+
+    }
+
     @Override
     public void onStart() {
         super.onStart();
@@ -70,7 +78,7 @@ public class Login extends AppCompatActivity {
         }
     }
 
-    public void createAccount (String email, String password) {
+     public void createAccount (String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
